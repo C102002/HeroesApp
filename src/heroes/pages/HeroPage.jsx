@@ -22,7 +22,7 @@ export const HeroPage = () => {
     return(<Navigate to='/dc'/>)
   }
 
-  const heroImageUrl = `/heroes/${ id }.jpg`;
+  const heroImageUrl = `./heroes/${ id }.jpg`;
   //antes
   //const heroImageUrl=`/assets/heroes/${id}.jpg`
 
