@@ -21,7 +21,7 @@ export const HeroPage = () => {
   if (!hero){
     return(<Navigate to='/dc'/>)
   }
-
+  //NT: `/heroes/${ id }.jpg`; para desarrollo
   const heroImageUrl = `./heroes/${ id }.jpg`;
   //antes
   //const heroImageUrl=`/assets/heroes/${id}.jpg`

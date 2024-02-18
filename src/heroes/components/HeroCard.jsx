@@ -20,6 +20,7 @@ export const HeroCard = (
         characters
     }
 ) => {
+      //NT: `/heroes/${ id }.jpg`; para desarrollo
 
     const heroImageUrl = `./heroes/${ id }.jpg`;
     // antes
