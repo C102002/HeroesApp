@@ -23,6 +23,7 @@ export const HeroCard = (
       //NT: `/heroes/${ id }.jpg`; para desarrollo
 
     const heroImageUrl = `./assets/heroes/${ id }.jpg`;
+    
     // antes
     //const heroImageUrl=`/assets/heroes/${id}.jpg`
 

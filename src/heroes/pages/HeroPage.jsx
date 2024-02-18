@@ -22,7 +22,9 @@ export const HeroPage = () => {
     return(<Navigate to='/dc'/>)
   }
   //NT: `/heroes/${ id }.jpg`; para desarrollo
-  const heroImageUrl = `./heroes/${ id }.jpg`;
+  const heroImageUrl = `./../assets/heroes/${id}.jpg`; // usando netlify
+
+  //const heroImageUrl = `./heroes/${ id }.jpg`;
   //antes
   //const heroImageUrl=`/assets/heroes/${id}.jpg`
 
